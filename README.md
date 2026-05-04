@@ -1,17 +1,83 @@
-# Piratas-do-vale
 
-Neste trabalho, a gente criou uma representação dos principais nomes da história da tecnologia usando conceitos de Programação Orientada a Objetos (POO). Os personagens escolhidos foram Steve Jobs, Bill Gates, Steve Wozniak, Paul Allen, Mike Markkula, Gary Kildall e Roberta Williams.
+import React from 'react';
+import { motion } from 'framer-motion';
+import { Card, CardContent } from '@/components/ui/card';
+import { Cpu, Code, Lightbulb } from 'lucide-react';
 
-A ideia principal foi mostrar como todos eles, mesmo sendo diferentes, podem ser representados dentro de uma mesma estrutura, assim como acontece na programação.
+const personagens = [
+  'Steve Jobs',
+  'Bill Gates',
+  'Steve Wozniak',
+  'Paul Allen',
+  'Mike Markkula',
+  'Gary Kildall',
+  'Roberta Williams'
+];
 
-Primeiro, usamos o conceito de herança. Criamos uma base comum para todos os personagens, já que todos possuem características parecidas, como nome, idade e a capacidade de criar algo. Isso mostra que, mesmo com funções diferentes, todos partem de um mesmo “modelo”.
+export default function PiratasDoValeAnimacao() {
+  return (
+    <div className="min-h-screen bg-slate-950 text-white p-8 flex flex-col items-center gap-8">
+      <motion.h1
+        initial={{ opacity: 0, y: -40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        className="text-4xl font-bold text-center"
+      >
+        Piratas do Vale 🚀
+      </motion.h1>
 
-Depois, aplicamos o encapsulamento, que basicamente significa organizar e proteger os dados. No nosso caso, cada personagem tem suas próprias informações, mas elas não ficam totalmente expostas — elas são acessadas de forma controlada. Isso ajuda a manter tudo mais organizado e seguro.
+      <motion.p
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.8, duration: 1 }}
+        className="text-lg text-center max-w-3xl"
+      >
+        Representação dos principais nomes da tecnologia usando Programação Orientada a Objetos.
+      </motion.p>
 
-Também utilizamos o polimorfismo, que foi representado pelas diferentes formas de cada personagem se expressar. Todos têm a capacidade de “falar” ou “agir”, mas cada um faz isso do seu jeito. Por exemplo, enquanto um foca em design, outro foca em software, e outro em negócios.
+      <div className="grid md:grid-cols-3 gap-6 w-full max-w-6xl">
+        {['Herança', 'Encapsulamento', 'Polimorfismo', 'Abstração'].map((conceito, index) => (
+          <motion.div
+            key={conceito}
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: index * 0.3, duration: 0.6 }}
+          >
+            <Card className="rounded-2xl shadow-xl bg-slate-800 border-slate-700">
+              <CardContent className="p-6 flex flex-col items-center gap-3">
+                {index % 3 === 0 ? <Cpu /> : index % 3 === 1 ? <Code /> : <Lightbulb />}
+                <h2 className="text-xl font-semibold">{conceito}</h2>
+              </CardContent>
+            </Card>
+          </motion.div>
+        ))}
+      </div>
 
-Além disso, trabalhamos com a abstração, que é a ideia de focar apenas no essencial. Todos os personagens têm a função de “criar algo”, mas cada um implementa isso de forma diferente. Um cria computadores, outro cria sistemas operacionais, outro cria jogos, e assim por diante.
-
-Durante o desenvolvimento, também ficou claro como esses personagens estão conectados na vida real. Alguns trabalharam juntos, outros foram concorrentes, e alguns influenciaram diretamente o sucesso dos outros. Isso ajudou a tornar o trabalho mais interessante e fácil de entender.
-
-No final, deu pra perceber que a Programação Orientada a Objetos não é só algo técnico, mas também uma forma de organizar ideias e representar situações do mundo real. Usando esses personagens, ficou mais fácil visualizar como os conceitos funcionam na prática.
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 1.5, duration: 1 }}
+        className="w-full max-w-5xl"
+      >
+        <Card className="bg-slate-900 border-slate-700 rounded-2xl">
+          <CardContent className="p-6">
+            <h2 className="text-2xl font-bold mb-4">Personagens</h2>
+            <div className="grid md:grid-cols-2 gap-3">
+              {personagens.map((nome, i) => (
+                <motion.div
+                  key={nome}
+                  initial={{ opacity: 0, x: -20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 2 + i * 0.15 }}
+                  className="bg-slate-800 rounded-xl p-3"
+                >
+                  {nome}
+                </motion.div>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
+      </motion.div>
+    </div>
+  );
+}
