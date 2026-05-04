@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JEANPAULDASILVA\\documents\\Piratas-do-vale\\PIRATA-DO-VALE\\PIRATA-DO-VALE.csproj": {}
+    "c:\\Users\\JEANPAULDASILVA\\documents\\Piratas-do-vale\\PIRATA-DO-VALE\\PIRATA-DO-VALE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JEANPAULDASILVA\\documents\\Piratas-do-vale\\PIRATA-DO-VALE\\PIRATA-DO-VALE.csproj": {
+    "c:\\Users\\JEANPAULDASILVA\\documents\\Piratas-do-vale\\PIRATA-DO-VALE\\PIRATA-DO-VALE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JEANPAULDASILVA\\documents\\Piratas-do-vale\\PIRATA-DO-VALE\\PIRATA-DO-VALE.csproj",
+        "projectUniqueName": "c:\\Users\\JEANPAULDASILVA\\documents\\Piratas-do-vale\\PIRATA-DO-VALE\\PIRATA-DO-VALE.csproj",
         "projectName": "PIRATA-DO-VALE",
-        "projectPath": "C:\\Users\\JEANPAULDASILVA\\documents\\Piratas-do-vale\\PIRATA-DO-VALE\\PIRATA-DO-VALE.csproj",
+        "projectPath": "c:\\Users\\JEANPAULDASILVA\\documents\\Piratas-do-vale\\PIRATA-DO-VALE\\PIRATA-DO-VALE.csproj",
         "packagesPath": "C:\\Users\\JEANPAULDASILVA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JEANPAULDASILVA\\documents\\Piratas-do-vale\\PIRATA-DO-VALE\\obj\\",
+        "outputPath": "c:\\Users\\JEANPAULDASILVA\\documents\\Piratas-do-vale\\PIRATA-DO-VALE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JEANPAULDASILVA\\AppData\\Roaming\\NuGet\\NuGet.Config",

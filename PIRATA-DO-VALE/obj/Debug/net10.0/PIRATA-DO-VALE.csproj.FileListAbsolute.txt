@@ -1,0 +1,15 @@
+c:\Users\JEANPAULDASILVA\documents\Piratas-do-vale\PIRATA-DO-VALE\bin\Debug\net10.0\PIRATA-DO-VALE.exe
+c:\Users\JEANPAULDASILVA\documents\Piratas-do-vale\PIRATA-DO-VALE\bin\Debug\net10.0\PIRATA-DO-VALE.deps.json
+c:\Users\JEANPAULDASILVA\documents\Piratas-do-vale\PIRATA-DO-VALE\bin\Debug\net10.0\PIRATA-DO-VALE.runtimeconfig.json
+c:\Users\JEANPAULDASILVA\documents\Piratas-do-vale\PIRATA-DO-VALE\bin\Debug\net10.0\PIRATA-DO-VALE.dll
+c:\Users\JEANPAULDASILVA\documents\Piratas-do-vale\PIRATA-DO-VALE\bin\Debug\net10.0\PIRATA-DO-VALE.pdb
+c:\Users\JEANPAULDASILVA\documents\Piratas-do-vale\PIRATA-DO-VALE\obj\Debug\net10.0\PIRATA-DO-VALE.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\JEANPAULDASILVA\documents\Piratas-do-vale\PIRATA-DO-VALE\obj\Debug\net10.0\PIRATA-DO-VALE.AssemblyInfoInputs.cache
+c:\Users\JEANPAULDASILVA\documents\Piratas-do-vale\PIRATA-DO-VALE\obj\Debug\net10.0\PIRATA-DO-VALE.AssemblyInfo.cs
+c:\Users\JEANPAULDASILVA\documents\Piratas-do-vale\PIRATA-DO-VALE\obj\Debug\net10.0\PIRATA-DO-VALE.csproj.CoreCompileInputs.cache
+c:\Users\JEANPAULDASILVA\documents\Piratas-do-vale\PIRATA-DO-VALE\obj\Debug\net10.0\PIRATA-DO-VALE.sourcelink.json
+c:\Users\JEANPAULDASILVA\documents\Piratas-do-vale\PIRATA-DO-VALE\obj\Debug\net10.0\PIRATA-DO-VALE.dll
+c:\Users\JEANPAULDASILVA\documents\Piratas-do-vale\PIRATA-DO-VALE\obj\Debug\net10.0\refint\PIRATA-DO-VALE.dll
+c:\Users\JEANPAULDASILVA\documents\Piratas-do-vale\PIRATA-DO-VALE\obj\Debug\net10.0\PIRATA-DO-VALE.pdb
+c:\Users\JEANPAULDASILVA\documents\Piratas-do-vale\PIRATA-DO-VALE\obj\Debug\net10.0\PIRATA-DO-VALE.genruntimeconfig.cache
+c:\Users\JEANPAULDASILVA\documents\Piratas-do-vale\PIRATA-DO-VALE\obj\Debug\net10.0\ref\PIRATA-DO-VALE.dll

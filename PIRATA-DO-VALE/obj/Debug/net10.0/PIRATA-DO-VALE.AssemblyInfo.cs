@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PIRATA-DO-VALE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fda3391d57a74d92c82a8569c9551f1870ffad3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0aac4f40f7915086593d031673ae9dd3dfe11705")]
 [assembly: System.Reflection.AssemblyProductAttribute("PIRATA-DO-VALE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PIRATA-DO-VALE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
